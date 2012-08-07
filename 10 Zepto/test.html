@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript Adv - Create your own jQuery</title>
+</head>
+<body>
+	
+	<div id="box">Test ...</div>
+
+	<script type="text/javascript" src="zepto.js"></script>
+	<script type="text/javascript">
+		$('#box').append(' Appended Value').click(function(){
+			$('#box').animate({color:'red',fontSize:'20px'},1000);
+		});
+
+	</script>
+</body>
+</html>
